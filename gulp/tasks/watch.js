@@ -9,6 +9,7 @@ gulp.task('watch', function() {
     server: {
       baseDir: 'app'
     }
+    // `open: false` to disable new tabs on reload
   })
 
   watch('./app/index.html', function() {
